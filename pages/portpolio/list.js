@@ -1,5 +1,6 @@
-function portFolioListPage(){
 
+function PortFolioListPage(){
+    
     return(
         <div>
             <h2>portFolioListPage</h2>
@@ -8,4 +9,4 @@ function portFolioListPage(){
 
 }
 
-export default portFolioListPage;
+export default PortFolioListPage;

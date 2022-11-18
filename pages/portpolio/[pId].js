@@ -1,5 +1,11 @@
-function portFolioProjPage(){
+import {useRouter} from "next/router";
 
+function PortFolioProjPage(){
+
+    const router = useRouter();
+    console.log(router.pathname);
+    console.log(router.query);
+    
     return(
         <div>
             <h2>portFolioProjPage</h2>
@@ -8,4 +14,4 @@ function portFolioProjPage(){
 
 }
 
-export default portFolioProjPage;
+export default PortFolioProjPage;
